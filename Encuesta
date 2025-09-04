@@ -1,0 +1,38 @@
+# Bryan Ortiz
+
+# Encuesta para 6 usuarios
+
+# Nombre - Carrera - Idea de proyecto
+
+def Preguntas(n):
+
+    N =str(input(f"Cuál es su nombre?  "))
+    print("")
+    C = str(input(f"Cuál es su carrera?    "))
+    print("")
+    P = str(input(f"Cuál es su idea de proyecto?    "))
+    print("")
+    n = str(f"{N} - {C} - {P}")
+    print(f"GRACIAS")
+    print("")
+    return  n
+
+U1 = ""
+USUARIO1 = Preguntas(U1)
+U2 = ""
+USUARIO2 = Preguntas(U2)
+U3 = ""
+USUARIO3 = Preguntas(U3)
+U4 = ""
+USUARIO4 = Preguntas(U4)
+U5 = ""
+USUARIO5 = Preguntas(U5)
+U6 = ""
+USUARIO6 = Preguntas(U6)
+
+print(f"Primer usuario :    {USUARIO1}")
+print(f"Segundo usuario :    {USUARIO2}")
+print(f"Tercer usuario :    {USUARIO3}")
+print(f"Cuarto usuario :    {USUARIO4}")
+print(f"Quinto usuario :    {USUARIO5}")
+print(f"Sexto usuario :    {USUARIO6}")
